@@ -6,6 +6,6 @@
     "eslint-plugin-prettier": "^3.3.1",
     "prettier": "^2.2.1"
   },
-  "name": "linter",
+  "name": "@warden-sk/linter",
   "version": "1.0.0"
 }
