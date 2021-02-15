@@ -8,7 +8,7 @@ const typescript = {
   // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/src/rules/consistent-type-definitions.ts
   '@typescript-eslint/consistent-type-definitions': 2,
   // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/src/rules/explicit-function-return-type.ts
-  '@typescript-eslint/explicit-function-return-type': 2,
+  '@typescript-eslint/explicit-function-return-type': 1,
   // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/src/rules/no-empty-interface.ts
   '@typescript-eslint/no-empty-interface': 2,
   // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/src/rules/no-explicit-any.ts
@@ -25,7 +25,6 @@ module.exports = {
     sourceType: 'module',
   },
   plugins: ['@typescript-eslint', 'prettier'],
-  root: true,
   rules: {
     'arrow-body-style': 0,
     'prefer-arrow-callback': 0,
