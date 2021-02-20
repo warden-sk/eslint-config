@@ -7,8 +7,6 @@ const typescript = {
   '@typescript-eslint/array-type': 2,
   // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/src/rules/consistent-type-definitions.ts
   '@typescript-eslint/consistent-type-definitions': 2,
-  // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/src/rules/explicit-function-return-type.ts
-  '@typescript-eslint/explicit-function-return-type': 1,
   // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/src/rules/no-explicit-any.ts
   '@typescript-eslint/no-explicit-any': 1,
 };
