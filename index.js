@@ -23,6 +23,7 @@ module.exports = {
   plugins: ['@typescript-eslint', 'prettier'],
   rules: {
     'arrow-body-style': 0,
+    eqeqeq: 2,
     'prefer-arrow-callback': 0,
     'prettier/prettier': [
       2,
