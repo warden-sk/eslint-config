@@ -9,6 +9,8 @@ const typescript = {
   '@typescript-eslint/consistent-type-definitions': 2,
   // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/src/rules/no-explicit-any.ts
   '@typescript-eslint/no-explicit-any': 1,
+  // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/src/rules/no-inferrable-types.ts
+  '@typescript-eslint/no-inferrable-types': 1,
 };
 
 module.exports = {
