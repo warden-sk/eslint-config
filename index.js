@@ -28,6 +28,8 @@ module.exports = {
     // https://github.com/eslint/eslint/blob/master/lib/rules/eqeqeq.js
     eqeqeq: 2,
     'prefer-arrow-callback': 0,
+    // https://github.com/eslint/eslint/blob/master/lib/rules/prefer-const.js
+    'prefer-const': 2,
     'prettier/prettier': [
       2,
       {
@@ -36,8 +38,6 @@ module.exports = {
         singleQuote: true,
       },
     ],
-    // https://github.com/eslint/eslint/blob/master/lib/rules/prefer-const.js
-    'prefer-const': 2,
     // https://github.com/eslint/eslint/blob/master/lib/rules/sort-imports.js
     'sort-imports': 2,
     ...typescript,
