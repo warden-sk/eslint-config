@@ -2,6 +2,21 @@
  * Copyright 2021 Marek Kobida
  */
 
+const prettier = {
+  // https://github.com/eslint/eslint/blob/master/lib/rules/arrow-body-style.js
+  'arrow-body-style': 0,
+  // https://github.com/eslint/eslint/blob/master/lib/rules/prefer-arrow-callback.js
+  'prefer-arrow-callback': 0,
+  'prettier/prettier': [
+    2,
+    {
+      arrowParens: 'avoid',
+      printWidth: 120,
+      singleQuote: true,
+    },
+  ],
+};
+
 const typescript = {
   // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/src/rules/array-type.ts
   '@typescript-eslint/array-type': 2,
@@ -24,22 +39,13 @@ module.exports = {
   },
   plugins: ['@typescript-eslint', 'prettier'],
   rules: {
-    'arrow-body-style': 0,
     // https://github.com/eslint/eslint/blob/master/lib/rules/eqeqeq.js
     eqeqeq: 2,
-    'prefer-arrow-callback': 0,
     // https://github.com/eslint/eslint/blob/master/lib/rules/prefer-const.js
     'prefer-const': 2,
-    'prettier/prettier': [
-      2,
-      {
-        arrowParens: 'avoid',
-        printWidth: 120,
-        singleQuote: true,
-      },
-    ],
     // https://github.com/eslint/eslint/blob/master/lib/rules/sort-imports.js
     'sort-imports': 2,
+    ...prettier,
     ...typescript,
   },
 };
