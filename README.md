@@ -1,9 +1,9 @@
-`npm i warden-sk/eslint-config`
+1. `npm i warden-sk/eslint-config`
 
-## .eslintrc.json
+2. `.eslintrc.json`
 
-```json
-{
-  "extends": "@warden-sk"
-}
-```
+  ```json
+  {
+    "extends": "@warden-sk"
+  }
+  ```
