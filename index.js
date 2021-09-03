@@ -20,6 +20,8 @@ const prettier = {
 const typescript = {
   // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/src/rules/array-type.ts
   '@typescript-eslint/array-type': 2,
+  // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/src/rules/consistent-type-assertion.ts
+  '@typescript-eslint/consistent-type-assertions': 2,
   // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/src/rules/consistent-type-definitions.ts
   '@typescript-eslint/consistent-type-definitions': 2,
   // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/src/rules/no-explicit-any.ts
