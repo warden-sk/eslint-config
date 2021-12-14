@@ -24,15 +24,6 @@ const typescript = {
   '@typescript-eslint/consistent-type-assertions': 2,
   // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/src/rules/consistent-type-definitions.ts
   '@typescript-eslint/consistent-type-definitions': 2,
-  // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/src/rules/member-ordering.ts
-  '@typescript-eslint/member-ordering': [
-    2,
-    {
-      default: {
-        order: 'alphabetically',
-      },
-    },
-  ],
   // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/src/rules/no-explicit-any.ts
   '@typescript-eslint/no-explicit-any': 1,
   // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/src/rules/no-inferrable-types.ts
@@ -47,7 +38,7 @@ module.exports = {
     ecmaFeatures: {
       jsx: true,
     },
-    ecmaVersion: 2021,
+    ecmaVersion: 2022,
     sourceType: 'module',
   },
   plugins: ['@typescript-eslint', 'prettier'],
