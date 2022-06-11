@@ -30,6 +30,8 @@ const typescript = {
   '@typescript-eslint/no-explicit-any': 1,
   // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/src/rules/no-inferrable-types.ts
   '@typescript-eslint/no-inferrable-types': 1,
+  // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/src/rules/no-unnecessary-condition.ts
+  '@typescript-eslint/no-unnecessary-condition': 2,
   // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/src/rules/sort-type-union-intersection-members.ts
   '@typescript-eslint/sort-type-union-intersection-members': 2,
 };
@@ -41,6 +43,7 @@ module.exports = {
       jsx: true,
     },
     ecmaVersion: 2022,
+    project: './tsconfig.json',
     sourceType: 'module',
   },
   plugins: ['@typescript-eslint', 'prettier'],
