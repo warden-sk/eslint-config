@@ -52,8 +52,6 @@ module.exports = {
     eqeqeq: 2,
     // https://github.com/eslint/eslint/blob/master/lib/rules/prefer-const.js
     'prefer-const': 2,
-    // https://github.com/eslint/eslint/blob/master/lib/rules/sort-imports.js
-    'sort-imports': 2,
     ...prettier,
     ...typescript,
   },
