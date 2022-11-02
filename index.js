@@ -31,7 +31,7 @@ const typescript = {
   // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/src/rules/no-inferrable-types.ts
   '@typescript-eslint/no-inferrable-types': 1,
   // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/src/rules/no-unnecessary-condition.ts
-  '@typescript-eslint/no-unnecessary-condition': 2,
+  '@typescript-eslint/no-unnecessary-condition': 0,
   // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/src/rules/sort-type-union-intersection-members.ts
   '@typescript-eslint/sort-type-union-intersection-members': 2,
 };
