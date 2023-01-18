@@ -17,6 +17,13 @@ const prettier = {
   ],
 };
 
+const react = {
+  // https://github.com/jsx-eslint/eslint-plugin-react/blob/master/lib/rules/jsx-key.js
+  'react/jsx-key': 2,
+  // https://github.com/jsx-eslint/eslint-plugin-react/blob/master/lib/rules/jsx-sort-props.js
+  'react/jsx-sort-props': 2,
+};
+
 const typescript = {
   // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/src/rules/array-type.ts
   '@typescript-eslint/array-type': 2,
@@ -46,7 +53,7 @@ module.exports = {
     project: './tsconfig.json',
     sourceType: 'module',
   },
-  plugins: ['@typescript-eslint', 'prettier'],
+  plugins: ['@typescript-eslint', 'prettier', 'react'],
   rules: {
     // https://github.com/eslint/eslint/blob/master/lib/rules/eqeqeq.js
     eqeqeq: 2,
@@ -55,6 +62,7 @@ module.exports = {
     'sort-imports': 1,
     'sort-keys': 2,
     ...prettier,
+    ...react,
     ...typescript,
   },
 };
