@@ -42,7 +42,7 @@ const typescript = {
   // https://github.com/typescript-eslint/typescript-eslint/blob/main/packages/eslint-plugin/src/rules/no-inferrable-types.ts
   '@typescript-eslint/no-inferrable-types': 1,
   // https://github.com/typescript-eslint/typescript-eslint/blob/main/packages/eslint-plugin/src/rules/no-unnecessary-condition.ts
-  '@typescript-eslint/no-unnecessary-condition': 1,
+  '@typescript-eslint/no-unnecessary-condition': 0,
   // https://github.com/typescript-eslint/typescript-eslint/blob/main/packages/eslint-plugin/src/rules/sort-type-constituents.ts
   '@typescript-eslint/sort-type-constituents': 2,
 };
