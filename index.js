@@ -57,13 +57,12 @@ module.exports = {
     project: './tsconfig.json',
     sourceType: 'module',
   },
-  plugins: ['@typescript-eslint', 'prettier', 'react', 'react-hooks'],
+  plugins: ['@typescript-eslint', 'prettier', 'react'],
   rules: {
     // https://github.com/eslint/eslint/blob/master/lib/rules/eqeqeq.js
     eqeqeq: 2,
     // https://github.com/eslint/eslint/blob/master/lib/rules/prefer-const.js
     'prefer-const': 2,
-    'react-hooks/rules-of-hooks': 2,
     'sort-keys': 2,
     ...prettier,
     ...react,
