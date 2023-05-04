@@ -21,8 +21,12 @@ const typescript = {
   '@typescript-eslint/no-unnecessary-condition': 0,
   // https://github.com/typescript-eslint/typescript-eslint/blob/main/packages/eslint-plugin/src/rules/promise-function-async.ts
   '@typescript-eslint/promise-function-async': 1,
+  // https://github.com/typescript-eslint/typescript-eslint/blob/main/packages/eslint-plugin/src/rules/return-await.ts
+  '@typescript-eslint/return-await': [1, 'always'],
   // https://github.com/typescript-eslint/typescript-eslint/blob/main/packages/eslint-plugin/src/rules/sort-type-constituents.ts
   '@typescript-eslint/sort-type-constituents': 2,
+  // https://github.com/eslint/eslint/blob/master/lib/rules/no-return-await.js
+  'no-return-await': 0,
 };
 
 module.exports = typescript;
