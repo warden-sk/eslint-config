@@ -5,6 +5,8 @@
 const typescript = {
   // https://github.com/typescript-eslint/typescript-eslint/blob/main/packages/eslint-plugin/src/rules/array-type.ts
   '@typescript-eslint/array-type': 2,
+  // https://github.com/typescript-eslint/typescript-eslint/blob/main/packages/eslint-plugin/src/rules/await-thenable.ts
+  '@typescript-eslint/await-thenable': 2,
   // https://github.com/typescript-eslint/typescript-eslint/blob/main/packages/eslint-plugin/src/rules/consistent-type-assertions.ts
   '@typescript-eslint/consistent-type-assertions': 2,
   // https://github.com/typescript-eslint/typescript-eslint/blob/main/packages/eslint-plugin/src/rules/consistent-type-definitions.ts
