@@ -19,14 +19,20 @@ const typescript = {
   '@typescript-eslint/explicit-function-return-type': [1, { allowExpressions: true }],
   // https://github.com/typescript-eslint/typescript-eslint/blob/main/packages/eslint-plugin/src/rules/no-explicit-any.ts
   '@typescript-eslint/no-explicit-any': 1,
+  // https://github.com/typescript-eslint/typescript-eslint/blob/main/packages/eslint-plugin/src/rules/no-floating-promises.ts
+  '@typescript-eslint/no-floating-promises': 2,
   // https://github.com/typescript-eslint/typescript-eslint/blob/main/packages/eslint-plugin/src/rules/no-inferrable-types.ts
   '@typescript-eslint/no-inferrable-types': 1,
   // https://github.com/typescript-eslint/typescript-eslint/blob/main/packages/eslint-plugin/src/rules/no-unnecessary-condition.ts
   '@typescript-eslint/no-unnecessary-condition': 0,
+  // https://github.com/typescript-eslint/typescript-eslint/blob/main/packages/eslint-plugin/src/rules/no-unnecessary-type-assertion.ts
+  '@typescript-eslint/no-unnecessary-type-assertion': 2,
+  // https://github.com/typescript-eslint/typescript-eslint/blob/main/packages/eslint-plugin/src/rules/no-unnecessary-type-constraint.ts
+  '@typescript-eslint/no-unnecessary-type-constraint': 2,
   // https://github.com/typescript-eslint/typescript-eslint/blob/main/packages/eslint-plugin/src/rules/promise-function-async.ts
   '@typescript-eslint/promise-function-async': 1,
   // https://github.com/typescript-eslint/typescript-eslint/blob/main/packages/eslint-plugin/src/rules/return-await.ts
-  '@typescript-eslint/return-await': [1, 'always'],
+  '@typescript-eslint/return-await': 1,
   // https://github.com/typescript-eslint/typescript-eslint/blob/main/packages/eslint-plugin/src/rules/sort-type-constituents.ts
   '@typescript-eslint/sort-type-constituents': 2,
   // https://github.com/eslint/eslint/blob/master/lib/rules/no-return-await.js
