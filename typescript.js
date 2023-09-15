@@ -3,39 +3,139 @@
  */
 
 const typescript = {
-  // https://github.com/typescript-eslint/typescript-eslint/blob/main/packages/eslint-plugin/src/rules/array-type.ts
   '@typescript-eslint/array-type': 2,
-  // https://github.com/typescript-eslint/typescript-eslint/blob/main/packages/eslint-plugin/src/rules/await-thenable.ts
   '@typescript-eslint/await-thenable': 2,
-  // https://github.com/typescript-eslint/typescript-eslint/blob/main/packages/eslint-plugin/src/rules/consistent-type-assertions.ts
+  '@typescript-eslint/consistent-generic-constructors': 2,
   '@typescript-eslint/consistent-type-assertions': 2,
-  // https://github.com/typescript-eslint/typescript-eslint/blob/main/packages/eslint-plugin/src/rules/consistent-type-definitions.ts
   '@typescript-eslint/consistent-type-definitions': 2,
-  // https://github.com/typescript-eslint/typescript-eslint/blob/main/packages/eslint-plugin/src/rules/consistent-type-exports.ts
   '@typescript-eslint/consistent-type-exports': 2,
-  // https://github.com/typescript-eslint/typescript-eslint/blob/main/packages/eslint-plugin/src/rules/consistent-type-imports.ts
   '@typescript-eslint/consistent-type-imports': 2,
-  // https://github.com/typescript-eslint/typescript-eslint/blob/main/packages/eslint-plugin/src/rules/explicit-function-return-type.ts
-  '@typescript-eslint/explicit-function-return-type': [1, { allowExpressions: true }],
-  // https://github.com/typescript-eslint/typescript-eslint/blob/main/packages/eslint-plugin/src/rules/no-explicit-any.ts
-  '@typescript-eslint/no-explicit-any': 1,
-  // https://github.com/typescript-eslint/typescript-eslint/blob/main/packages/eslint-plugin/src/rules/no-floating-promises.ts
-  '@typescript-eslint/no-floating-promises': 2,
-  // https://github.com/typescript-eslint/typescript-eslint/blob/main/packages/eslint-plugin/src/rules/no-inferrable-types.ts
-  '@typescript-eslint/no-inferrable-types': 1,
-  // https://github.com/typescript-eslint/typescript-eslint/blob/main/packages/eslint-plugin/src/rules/no-unnecessary-condition.ts
-  '@typescript-eslint/no-unnecessary-condition': 0,
-  // https://github.com/typescript-eslint/typescript-eslint/blob/main/packages/eslint-plugin/src/rules/no-unnecessary-type-assertion.ts
+  '@typescript-eslint/dot-notation': 2,
+  // '@typescript-eslint/explicit-function-return-type': [1, { allowExpressions: true }],
+  '@typescript-eslint/member-ordering': [
+    2,
+    {
+      default: {
+        memberTypes: [
+          // (1)
+          'signature',
+          'call-signature',
+          // (2)
+          'public-static-field',
+          'protected-static-field',
+          'private-static-field',
+          '#private-static-field',
+          'public-decorated-field',
+          'protected-decorated-field',
+          'private-decorated-field',
+          'public-instance-field',
+          'protected-instance-field',
+          'private-instance-field',
+          '#private-instance-field',
+          'public-abstract-field',
+          'protected-abstract-field',
+          'public-field',
+          'protected-field',
+          'private-field',
+          '#private-field',
+          'static-field',
+          'instance-field',
+          'abstract-field',
+          'decorated-field',
+          'field',
+          // (3)
+          'static-initialization',
+          // (4)
+          'public-constructor',
+          'protected-constructor',
+          'private-constructor',
+          'constructor',
+          // (5)
+          'public-static-get',
+          'protected-static-get',
+          'private-static-get',
+          '#private-static-get',
+          'public-decorated-get',
+          'protected-decorated-get',
+          'private-decorated-get',
+          'public-instance-get',
+          'protected-instance-get',
+          'private-instance-get',
+          '#private-instance-get',
+          'public-abstract-get',
+          'protected-abstract-get',
+          'public-get',
+          'protected-get',
+          'private-get',
+          '#private-get',
+          'static-get',
+          'instance-get',
+          'abstract-get',
+          'decorated-get',
+          'get',
+          // (6)
+          'public-static-set',
+          'protected-static-set',
+          'private-static-set',
+          '#private-static-set',
+          'public-decorated-set',
+          'protected-decorated-set',
+          'private-decorated-set',
+          'public-instance-set',
+          'protected-instance-set',
+          'private-instance-set',
+          '#private-instance-set',
+          'public-abstract-set',
+          'protected-abstract-set',
+          'public-set',
+          'protected-set',
+          'private-set',
+          '#private-set',
+          'static-set',
+          'instance-set',
+          'abstract-set',
+          'decorated-set',
+          'set',
+          // (7)
+          'public-static-method',
+          'protected-static-method',
+          'private-static-method',
+          '#private-static-method',
+          'public-decorated-method',
+          'protected-decorated-method',
+          'private-decorated-method',
+          'public-instance-method',
+          'protected-instance-method',
+          'private-instance-method',
+          '#private-instance-method',
+          'public-abstract-method',
+          'protected-abstract-method',
+          'public-method',
+          'protected-method',
+          'private-method',
+          '#private-method',
+          'static-method',
+          'instance-method',
+          'abstract-method',
+          'decorated-method',
+          'method',
+        ],
+        order: 'alphabetically',
+      },
+    },
+  ],
+  '@typescript-eslint/no-confusing-non-null-assertion': 2,
+  '@typescript-eslint/no-explicit-any': 2,
+  '@typescript-eslint/no-floating-promises': 1,
+  '@typescript-eslint/no-inferrable-types': 2,
+  '@typescript-eslint/no-unnecessary-condition': 2,
   '@typescript-eslint/no-unnecessary-type-assertion': 2,
-  // https://github.com/typescript-eslint/typescript-eslint/blob/main/packages/eslint-plugin/src/rules/no-unnecessary-type-constraint.ts
   '@typescript-eslint/no-unnecessary-type-constraint': 2,
-  // https://github.com/typescript-eslint/typescript-eslint/blob/main/packages/eslint-plugin/src/rules/promise-function-async.ts
+  '@typescript-eslint/prefer-function-type': 2,
   '@typescript-eslint/promise-function-async': 1,
-  // https://github.com/typescript-eslint/typescript-eslint/blob/main/packages/eslint-plugin/src/rules/return-await.ts
   '@typescript-eslint/return-await': 1,
-  // https://github.com/typescript-eslint/typescript-eslint/blob/main/packages/eslint-plugin/src/rules/sort-type-constituents.ts
   '@typescript-eslint/sort-type-constituents': 2,
-  // https://github.com/eslint/eslint/blob/master/lib/rules/no-return-await.js
+  'dot-notation': 0,
   'no-return-await': 0,
 };
 
