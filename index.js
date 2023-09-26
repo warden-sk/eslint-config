@@ -7,6 +7,7 @@ const react = require('./react');
 const typescript = require('./typescript');
 
 module.exports = {
+  extends: ['plugin:react-hooks/recommended'],
   parser: '@typescript-eslint/parser',
   parserOptions: {
     ecmaFeatures: {
@@ -16,7 +17,7 @@ module.exports = {
     project: './tsconfig.json',
     sourceType: 'module',
   },
-  plugins: ['@typescript-eslint', 'prettier', 'react'],
+  plugins: ['@typescript-eslint', 'prettier', 'react', 'react-hooks'],
   rules: {
     eqeqeq: 2,
     'prefer-const': 2,
