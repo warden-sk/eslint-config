@@ -7,7 +7,7 @@ const typescript = {
   '@typescript-eslint/await-thenable': 2,
   '@typescript-eslint/consistent-generic-constructors': 2,
   '@typescript-eslint/consistent-type-assertions': 2,
-  '@typescript-eslint/consistent-type-definitions': 2,
+  '@typescript-eslint/consistent-type-definitions': [2, 'type'],
   '@typescript-eslint/consistent-type-exports': 2,
   '@typescript-eslint/consistent-type-imports': 2,
   '@typescript-eslint/dot-notation': 2,
