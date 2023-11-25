@@ -6,6 +6,7 @@ const typescript = {
   '@typescript-eslint/array-type': 2,
   '@typescript-eslint/await-thenable': 2,
   '@typescript-eslint/consistent-generic-constructors': 2,
+  '@typescript-eslint/consistent-indexed-object-style': 2,
   '@typescript-eslint/consistent-type-assertions': 2,
   '@typescript-eslint/consistent-type-definitions': [2, 'type'],
   '@typescript-eslint/consistent-type-exports': 2,
