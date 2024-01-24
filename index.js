@@ -1,5 +1,6 @@
 /*
- * Copyright 2023 Marek Kobida
+ * Copyright 2024 Marek Kobida
+ * Last Updated: 24.01.2024 at 23:08
  */
 
 const prettier = require('./prettier');
@@ -20,7 +21,8 @@ module.exports = {
   plugins: ['@typescript-eslint', 'prettier', 'react', 'react-hooks'],
   rules: {
     eqeqeq: 2,
-    'prefer-const': 2,
+    // 'prefer-const': 2,
+    quotes: 2,
     'sort-keys': 2,
     ...prettier,
     ...react,
