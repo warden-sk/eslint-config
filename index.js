@@ -1,6 +1,6 @@
 /*
  * Copyright 2024 Marek Kobida
- * Last Updated: 24.01.2024 at 23:08
+ * Last Updated: 24.01.2024 at 23:11
  */
 
 const prettier = require('./prettier');
@@ -22,7 +22,7 @@ module.exports = {
   rules: {
     eqeqeq: 2,
     // 'prefer-const': 2,
-    quotes: 2,
+    quotes: [2, 'single'],
     'sort-keys': 2,
     ...prettier,
     ...react,
