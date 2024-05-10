@@ -1,6 +1,6 @@
 /*
  * Copyright 2024 Marek Kobida
- * Last Updated: 15.09.2023 at 17:32
+ * Last Updated: 10.05.2024
  */
 
 const prettier = {
@@ -10,6 +10,7 @@ const prettier = {
     2,
     {
       arrowParens: 'avoid',
+      experimentalTernaries: true,
       printWidth: 120,
       singleQuote: true,
     },
