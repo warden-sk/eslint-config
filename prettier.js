@@ -1,6 +1,6 @@
 /*
- * Copyright 2024 Marek Kobida
- * Last Updated: 10.05.2024
+ * Copyright 2025 Marek Kobida
+ * Last Updated: 19.04.2025
  */
 
 const prettier = {

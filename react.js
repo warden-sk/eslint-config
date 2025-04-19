@@ -1,6 +1,6 @@
 /*
- * Copyright 2024 Marek Kobida
- * Last Updated: 15.09.2023 at 17:32
+ * Copyright 2025 Marek Kobida
+ * Last Updated: 19.04.2025
  */
 
 const react = {

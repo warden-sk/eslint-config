@@ -1,6 +1,6 @@
 /*
- * Copyright 2024 Marek Kobida
- * Last Updated: 22.07.2024
+ * Copyright 2025 Marek Kobida
+ * Last Updated: 19.04.2025
  */
 
 import $perfectionist from 'eslint-plugin-perfectionist';

@@ -1,6 +1,6 @@
 /*
- * Copyright 2024 Marek Kobida
- * Last Updated: 25.11.2023 at 05:52
+ * Copyright 2025 Marek Kobida
+ * Last Updated: 19.04.2025
  */
 
 const typescript = {
