@@ -17,4 +17,4 @@ const prettier = {
   ],
 };
 
-module.exports = prettier;
+export default prettier;
