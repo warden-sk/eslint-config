@@ -1,5 +1,5 @@
 {
-  "devDependencies": {
+  "dependencies": {
     "eslint": "^9.25.0",
     "eslint-plugin-perfectionist": "^4.11.0",
     "eslint-plugin-prettier": "^5.2.6",
