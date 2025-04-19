@@ -5,7 +5,6 @@
 
 const react = {
   'react/jsx-key': 2,
-  'react/no-multi-comp': 2,
 };
 
 export default react;
