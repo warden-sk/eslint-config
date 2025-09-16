@@ -37,57 +37,6 @@ export default [
     },
     rules: {
       eqeqeq: 2,
-      'no-restricted-globals': [
-        1,
-        {
-          message: 'Use `window.clearInterval`.',
-          name: 'clearInterval',
-        },
-        {
-          message: 'Use `window.clearTimeout`.',
-          name: 'clearTimeout',
-        },
-        {
-          message: 'Use `window.console`.',
-          name: 'console',
-        },
-        {
-          message: 'Use `window.document`.',
-          name: 'document',
-        },
-        {
-          message: 'Use `window.history`.',
-          name: 'history',
-        },
-        {
-          message: 'Use `window.localStorage`.',
-          name: 'localStorage',
-        },
-        {
-          message: 'Use `window.location`.',
-          name: 'location',
-        },
-        {
-          message: 'Use `window.navigator`.',
-          name: 'navigator',
-        },
-        {
-          message: 'Use `window.open`.',
-          name: 'open',
-        },
-        {
-          message: 'Use `window.sessionStorage`.',
-          name: 'sessionStorage',
-        },
-        {
-          message: 'Use `window.setInterval`.',
-          name: 'setInterval',
-        },
-        {
-          message: 'Use `window.setTimeout`.',
-          name: 'setTimeout',
-        },
-      ],
       quotes: [2, 'single'],
       ...prettier,
       ...react,
