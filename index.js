@@ -37,6 +37,7 @@ export default [
     },
     rules: {
       eqeqeq: 2,
+      'no-useless-return': 2,
       quotes: [2, 'single'],
       ...prettier,
       ...react,
