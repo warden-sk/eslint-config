@@ -4,7 +4,7 @@
  */
 
 const prettier = {
-  'arrow-body-style': 2,
+  'arrow-body-style': [2, 'always'],
   'prefer-arrow-callback': 0,
   'prettier/prettier': [
     2,

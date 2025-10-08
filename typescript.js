@@ -15,7 +15,7 @@ const typescript = {
   '@typescript-eslint/dot-notation': 2,
   '@typescript-eslint/explicit-function-return-type': [1, { allowExpressions: true }],
   '@typescript-eslint/no-confusing-non-null-assertion': 2,
-  '@typescript-eslint/no-explicit-any': 2,
+  // '@typescript-eslint/no-explicit-any': 2,
   '@typescript-eslint/no-floating-promises': 1,
   '@typescript-eslint/no-inferrable-types': 2,
   '@typescript-eslint/no-unnecessary-condition': 2,
