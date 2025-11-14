@@ -1,6 +1,5 @@
 /*
  * Copyright 2025 Marek Kobida
- * Last Updated: 19.04.2025
  */
 const typescript = {
     '@typescript-eslint/array-type': 2,

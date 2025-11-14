@@ -28,8 +28,8 @@ export default [
         },
         plugins: {
             '@typescript-eslint': $ts.plugin,
-            prettier: $prettier, // LAST
             react: $react,
+            prettier: $prettier, // LAST
         },
         rules: {
             eqeqeq: 2,

@@ -1,6 +1,5 @@
 /*
  * Copyright 2025 Marek Kobida
- * Last Updated: 19.04.2025
  */
 const prettier = {
     'arrow-body-style': 0,
