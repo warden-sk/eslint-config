@@ -21,9 +21,16 @@ const typescript = {
   '@typescript-eslint/no-confusing-non-null-assertion': 2,
   '@typescript-eslint/no-floating-promises': 1,
   '@typescript-eslint/no-inferrable-types': 2,
+  '@typescript-eslint/no-unnecessary-boolean-literal-compare': 2,
   '@typescript-eslint/no-unnecessary-condition': 2,
+  '@typescript-eslint/no-unnecessary-parameter-property-assignment': 2,
+  '@typescript-eslint/no-unnecessary-qualifier': 2,
+  '@typescript-eslint/no-unnecessary-template-expression': 2,
+  '@typescript-eslint/no-unnecessary-type-arguments': 2,
   '@typescript-eslint/no-unnecessary-type-assertion': 2,
   '@typescript-eslint/no-unnecessary-type-constraint': 2,
+  '@typescript-eslint/no-unnecessary-type-conversion': 2,
+  '@typescript-eslint/no-unnecessary-type-parameters': 2,
   '@typescript-eslint/prefer-function-type': 2,
   '@typescript-eslint/prefer-nullish-coalescing': 2, // `??`
   '@typescript-eslint/prefer-optional-chain': 2, // `?.`
