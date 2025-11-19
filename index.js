@@ -34,8 +34,6 @@ export default defineConfig(
     rules: {
       // https://eslint.org/docs/latest/rules/eqeqeq
       eqeqeq: 2,
-      // https://eslint.org/docs/latest/rules/indent
-      indent: [2, 2],
       // https://eslint.org/docs/latest/rules/no-useless-return
       'no-useless-return': 2,
       // https://eslint.org/docs/latest/rules/object-shorthand
