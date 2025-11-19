@@ -5,19 +5,19 @@
 import $js from '@eslint/js';
 import $perfectionist from 'eslint-plugin-perfectionist';
 import $prettier from 'eslint-plugin-prettier';
+import { defineConfig } from 'eslint/config';
 import $ts from 'typescript-eslint';
 
 import prettier from './prettier.js';
 import typescript from './typescript.js';
 
-export default [
+export default defineConfig(
   $js.configs.recommended,
   $perfectionist.configs['recommended-alphabetical'],
   $ts.configs.recommended,
   {
     files: ['**/*.{js,ts,tsx}'],
     languageOptions: {
-      parser: $ts.parser,
       // https://typescript-eslint.io/packages/parser
       parserOptions: {
         ecmaFeatures: {
@@ -29,8 +29,7 @@ export default [
       },
     },
     plugins: {
-      '@typescript-eslint': $ts.plugin,
-      prettier: $prettier, // LAST
+      prettier: $prettier,
     },
     rules: {
       // https://eslint.org/docs/latest/rules/eqeqeq
@@ -43,4 +42,4 @@ export default [
       ...typescript,
     },
   },
-];
+);
