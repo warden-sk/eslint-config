@@ -1,44 +1,46 @@
 /*
  * Copyright 2025 Marek Kobida
  */
+
+import $js from '@eslint/js';
 import $perfectionist from 'eslint-plugin-perfectionist';
 import $prettier from 'eslint-plugin-prettier';
-import $react from 'eslint-plugin-react';
 import $ts from 'typescript-eslint';
+
 import prettier from './prettier.js';
-import react from './react.js';
 import typescript from './typescript.js';
+
 export default [
-    $perfectionist.configs['recommended-alphabetical'],
-    {
-        files: ['**/*.{js,ts,tsx}'],
-        languageOptions: {
-            ecmaVersion: 'latest',
-            parser: $ts.parser,
-            // https://typescript-eslint.io/packages/parser
-            parserOptions: {
-                ecmaFeatures: {
-                    jsx: true,
-                },
-                ecmaVersion: 'latest',
-                projectService: true,
-                tsconfigRootDir: import.meta.dirname,
-            },
-            sourceType: 'module',
+  $js.configs.recommended,
+  $perfectionist.configs['recommended-alphabetical'],
+  $ts.configs.recommended,
+  {
+    files: ['**/*.{js,ts,tsx}'],
+    languageOptions: {
+      parser: $ts.parser,
+      // https://typescript-eslint.io/packages/parser
+      parserOptions: {
+        ecmaFeatures: {
+          jsx: true,
         },
-        plugins: {
-            '@typescript-eslint': $ts.plugin,
-            react: $react,
-            prettier: $prettier, // LAST
-        },
-        rules: {
-            eqeqeq: 2,
-            'no-useless-return': 2,
-            'object-shorthand': 2,
-            quotes: [2, 'single'],
-            ...prettier,
-            ...react,
-            ...typescript,
-        },
+        ecmaVersion: 'latest',
+        projectService: true,
+        tsconfigRootDir: import.meta.dirname,
+      },
     },
+    plugins: {
+      '@typescript-eslint': $ts.plugin,
+      prettier: $prettier, // LAST
+    },
+    rules: {
+      // https://eslint.org/docs/latest/rules/eqeqeq
+      eqeqeq: 2,
+      // https://eslint.org/docs/latest/rules/no-useless-return
+      'no-useless-return': 2,
+      // https://eslint.org/docs/latest/rules/object-shorthand
+      'object-shorthand': 2,
+      ...prettier,
+      ...typescript,
+    },
+  },
 ];
