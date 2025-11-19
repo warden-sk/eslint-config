@@ -9,8 +9,8 @@ const typescript = {
   '@typescript-eslint/consistent-indexed-object-style': 2,
   '@typescript-eslint/consistent-type-assertions': 2,
   '@typescript-eslint/consistent-type-definitions': [2, 'type'],
-  '@typescript-eslint/consistent-type-exports': 2,
-  '@typescript-eslint/consistent-type-imports': 2,
+  '@typescript-eslint/consistent-type-exports': 2, // `export type`
+  '@typescript-eslint/consistent-type-imports': 2, // `import type`
   '@typescript-eslint/dot-notation': 2,
   '@typescript-eslint/explicit-function-return-type': [
     1,
@@ -25,6 +25,8 @@ const typescript = {
   '@typescript-eslint/no-unnecessary-type-assertion': 2,
   '@typescript-eslint/no-unnecessary-type-constraint': 2,
   '@typescript-eslint/prefer-function-type': 2,
+  '@typescript-eslint/prefer-nullish-coalescing': 2, // `??`
+  '@typescript-eslint/prefer-optional-chain': 2, // `?.`
   '@typescript-eslint/promise-function-async': 1,
   '@typescript-eslint/return-await': 1,
   'dot-notation': 0,
