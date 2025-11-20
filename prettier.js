@@ -10,7 +10,6 @@ const prettier = {
     2,
     {
       arrowParens: 'avoid',
-      experimentalTernaries: true,
       printWidth: 120,
       singleQuote: true,
     },
