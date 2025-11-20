@@ -13,7 +13,7 @@ import typescript from './typescript.js';
 
 export default defineConfig(
   $js.configs.recommended,
-  $perfectionist.configs['recommended-alphabetical'],
+  $perfectionist.configs['recommended-natural'],
   $ts.configs.recommended,
   {
     files: ['**/*.{js,ts,tsx}'],
